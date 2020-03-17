@@ -33,6 +33,15 @@ github_username:  jekyll
 plugins:
   - jekyll-feed
 
+assets:
+  source_maps: true
+  destination: "/assets"
+  compression: false
+  gzip: false
+  defaults:
+    integrity:
+      {css,img,js,vendor,assets}: false
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
